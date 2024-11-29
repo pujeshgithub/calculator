@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <span>Calculator</span>
+    <div class="container">
+        
+
+        <input id="screen" disabled >
+
+        <button id="one" onclick="addValue(1)">1</button>
+        <button id="two" onclick="addValue(2)">2</button>
+        <button  id="three" onclick="addValue(3)">3</button>
+        <button id="four" onclick="addValue(4)">4</button>
+        <button id="five" onclick="addValue(5)">5</button>
+        <button id="six" onclick="addValue(6)">6</button>
+        <button id="seven" onclick="addValue(7)">7</button>
+        <button id="eight" onclick="addValue(8)">8</button>
+        <button id="nine" onclick="addValue(9)">9</button>
+        <button id="zero" onclick="addValue(0)">0</button>
+        <button id="doubleZero" onclick="twoZeros()">00</button>
+
+
+        <button id="percentage" onclick="addValue('%')">%</button>
+        <button id="addSign" onclick="addValue('+')">+</button>
+        <button id="subSign" onclick="addValue('-')">-</button>
+        <button id="mulSign" onclick="addValue('*')">*</button>
+        <button id="divSign" onclick="addValue('/')">/</button>
+        <button id="dotSign" onclick="addValue('.')">.</button>
+
+        <button id="delSign" onclick="clearSingleNum()">Del</button>
+
+        <button id="eqlBtn" onclick="calculate()">=</button>
+
+        <button id="clear" onclick="clearAll()">AC</button>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

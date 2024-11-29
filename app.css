@@ -1,0 +1,163 @@
+.container{
+    border: 5px solid;
+    height: 690px;
+    width: 518px;
+    position: relative;
+    left: 675px;
+    top: 11px;
+    box-shadow: 10px 10px 3px aqua;
+    border-radius: 2%;
+}
+input{
+    height: 80px;
+    width: 458px;
+    margin: 26px;
+    font-size: 45px;
+}
+button{
+    
+    margin: 10px;
+    border-radius: 50%;
+    height: 85px;
+    width: 103px;
+    padding: 23px; ;
+    font-size: 35px;
+    background-color:gray;
+}
+button:hover{
+    background-color: orange;
+    box-shadow: -8px -8px 15px rgb(203, 235, 23);
+}
+body{
+    background-color: lightblue;
+}
+.container:hover{
+    color: rgb(227, 162, 20);
+    box-shadow: 20px 20px 5px rgb(73, 21, 51);
+}
+span{
+    font-size: 55px;
+    font-weight: bolder;
+    position: relative;
+    left: 797px;
+}
+.container:hover{
+    box-shadow: -10px -10px 3px rgba(156, 3, 238, 0.882);
+}
+
+#clear{
+    position: absolute;
+    top: 137px;
+    right: 395px;
+}
+#one{
+    position: relative;
+    top: 20px;
+}
+#percentage{
+    position: absolute;
+    top: 137px;
+    right: 268px;
+}
+#delSign{
+    position: absolute;
+    top: 137px;
+    right: 141px;
+}
+#divSign{
+    position: absolute;
+    top: 137px;
+    right: 14px;
+}
+#mulSign{
+    position: absolute;
+    right: 14px;
+    top: 240px;
+}
+#subSign{
+    position: absolute;
+    top: 346px;
+    right: 17px;
+}
+#addSign{
+    position: absolute;
+    top: 452px;
+    right: 15px;
+}
+#one{
+    position: absolute;
+    top: 243px;
+    right: 394px;
+}
+#two{
+    position: absolute;
+    top: 243px;
+    right: 267px;
+}
+#three{
+    position: absolute;
+    top: 242px;
+    right: 140px;
+}
+#four{
+    position: absolute;
+    right: 394px;
+    top: 348px;
+}
+#five{
+    position: absolute;
+    top: 348px;
+    right: 268px;
+}
+#six{
+    position: absolute;
+    right: 141px;
+    top: 347px;
+}
+#seven{
+    position: absolute;
+    right: 394px;
+    top: 453px;
+}
+#eight{
+    position: absolute;
+    right: 267px;
+    top: 453px;
+}
+#nine{
+    position: absolute;
+    top: 452px;
+    right: 141px;
+}
+#doubleZero{
+    position: absolute;
+    top: 558px;
+    right: 394px;
+}
+#zero{
+    position: absolute;
+    top: 558px;
+    right: 266px;
+}
+#dotSign{
+    position: absolute;
+    top: 557px;
+    right: 140px;
+}
+#eqlBtn{
+    position: absolute;
+    top: 557px;
+    right: 16px;
+}
+#clear, #percentage, #delSign, #divSign, #mulSign, #subSign, #addSign{
+    background-color: rgb(44, 42, 42);
+    color: white;
+    font-weight: bolder;
+}
+#one, #three, #two, #five, #four, #seven, #six, #eight, #nine, #zero, #dotSign, #doubleZero{
+    background-color: rgb(85, 83, 83);
+    color: white;
+}
+#eqlBtn{
+    background-color: cornflowerblue;
+}
